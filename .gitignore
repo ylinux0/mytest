@@ -1,0 +1,49 @@
+# My first proper .gitignore file! 🎉
+# Found most of these from stackoverflow and github docs
+
+# Python stuff
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.so
+.env
+.venv
+venv/
+ENV/
+.pytest_cache/
+
+# VS Code - my favorite editor! 💻
+.vscode/
+*.code-workspace
+
+# React/Node stuff
+node_modules/  # this folder is huge!
+.DS_Store  # mac files are annoying
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.cache/  # caught me by surprise last time!
+
+# Build stuff
+build/
+dist/
+*.egg-info/
+
+# My personal notes and todos
+notes.txt
+todo.txt
+*.tmp
+
+# Redis stuff (learned this the hard way)
+*.rdb
+redis-data/
+
+# Secret stuff - NEVER commit these! 🔒
+.env
+secrets.json
+credentials.json 
