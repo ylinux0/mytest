@@ -1,0 +1,13 @@
+{
+    "venvPath": ".",
+    "venv": "venv",
+    "reportMissingImports": false,
+    "pythonVersion": "3.12",
+    "pythonPlatform": "Linux",
+    "executionEnvironments": [
+        {
+            "root": ".",
+            "extraPaths": ["./venv/lib/python3.12/site-packages"]
+        }
+    ]
+} 
